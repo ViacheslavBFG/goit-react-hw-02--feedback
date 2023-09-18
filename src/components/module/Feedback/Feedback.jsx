@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Feedback = ({}) => {
+export const Feedback = ({options, onLeaveFeedback}) => {
   return (
     <div>
       {options.map(option => (
