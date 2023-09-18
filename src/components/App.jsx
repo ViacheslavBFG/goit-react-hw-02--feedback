@@ -1,6 +1,7 @@
 export const App = () => {
   return (
     <div
+   
       style={{
         height: '100vh',
         display: 'flex',
@@ -11,6 +12,8 @@ export const App = () => {
       }}
     >
       React homework template
+      
     </div>
+    
   );
 };
